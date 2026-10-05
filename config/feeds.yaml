@@ -1,0 +1,31 @@
+# RSS sources per topic agent. Add, remove, or swap feeds freely —
+# each topic agent only reads its own list.
+finance:
+  - name: CNBC Top News
+    url: https://www.cnbc.com/id/100003114/device/rss/rss.html
+  - name: MarketWatch Top Stories
+    url: https://feeds.content.dowjones.io/public/rss/mw_topstories
+  - name: Yahoo Finance
+    url: https://finance.yahoo.com/news/rssindex
+  - name: Federal Reserve Press Releases
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+
+technology:
+  - name: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+  - name: TechCrunch
+    url: https://techcrunch.com/feed/
+  - name: Hacker News Front Page
+    url: https://hnrss.org/frontpage
+
+politics:
+  - name: BBC Politics
+    url: https://feeds.bbci.co.uk/news/politics/rss.xml
+  - name: NPR Politics
+    url: https://feeds.npr.org/1014/rss.xml
+  - name: Politico
+    url: https://rss.politico.com/politics-news.xml
+  - name: The Guardian Politics
+    url: https://www.theguardian.com/politics/rss
